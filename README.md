@@ -18,7 +18,7 @@ Here is a visual representation of the entire workflow:
 ## How It Works
 The workflow is divided into three main automated processes:
 
-### 1. Daily Scheduled Carrier Search (The Red Section)
+### 1. Daily Scheduled Carrier Search 
 *   **Triggers Daily:** The workflow starts every day at a set time.
 *   **Reads Master Data:** It accesses a master Google Sheet containing raw data of pickup locations from emails.
 *   **Geographical Clustering:** The data is grouped into geographical clusters.
@@ -27,13 +27,13 @@ The workflow is divided into three main automated processes:
 *   **Data Segregation:** The results are filtered into two groups: "within 150 miles" and "outside 150 miles".
 *   **Final Output:** Two separate sheets in a Google Sheet are populated with the filtered carrier data for the current date.
 
-### 2. New Email Processing (The Orange Section)
+### 2. New Email Processing 
 *   **Email Trigger:** The workflow starts whenever a new email is received in a specific inbox.
 *   **Data Routing:** A switch node directs the email body, attachments (like .xls files), and other data down three separate processing paths.
 *   **AI-Powered Data Extraction:** Each path uses an OpenAI node to extract the relevant information from the data.
 *   **Validation and Storage:** An IF node validates the extracted data, which is then added to the appropriate Google Sheet.
 
-### 3. New Carrier Portal File Processing (The Green Section)
+### 3. New Carrier Portal File Processing 
 *   **Drive Trigger:** This workflow begins when a new Excel file from a carrier portal is added to a specific folder in Google Drive.
 *   **Data Extraction:** The workflow downloads the file and extracts contact data.
 *   **Data Appending:** The new contact information is added to a designated Google Sheet.
