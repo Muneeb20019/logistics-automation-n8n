@@ -13,7 +13,7 @@ This project is an automated workflow built with n8n to streamline logistics ope
 ## Workflow Visualization
 Here is a visual representation of the entire workflow:
 
-![Workflow Visualization] https://github.com/Muneeb20019/logistics-automation-n8n/blob/main/logistics%20workflow.jpeg
+![Workflow Visualization](https://github.com/Muneeb20019/logistics-automation-n8n/blob/main/logistics%20workflow.jpeg)
 ## How It Works
 The workflow is divided into three main automated processes:
 
