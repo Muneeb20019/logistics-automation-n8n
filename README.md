@@ -44,3 +44,9 @@ The workflow is divided into three main automated processes:
 *   **AI & Data Processing:** OpenAI
 *   **APIs:** Nomination API (for geolocation), other external services
 *   **Communication:** Gmail
+
+*   
+---
+## Author
+
+- [Muneeb Ali Khan] (https://www.linkedin.com/in/muneeb-ali-khan-2a1675365)
