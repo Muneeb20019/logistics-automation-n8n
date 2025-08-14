@@ -1,4 +1,4 @@
-# Logistics Automation Workflow
+# Logistics Automation n8n
 
 This project is an automated workflow built with n8n to streamline logistics operations. It automatically processes incoming data from various sources like emails and spreadsheets, enriches it with geographical information, and organizes it to find potential shipping carriers. This automation saves significant manual effort and speeds up the carrier selection process.
 
