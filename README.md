@@ -45,7 +45,7 @@ The workflow is divided into three main automated processes:
 *   **APIs:** Nomination API (for geolocation), other external services
 *   **Communication:** Gmail
 
-*   
+   
 ---
 ## Author
 
